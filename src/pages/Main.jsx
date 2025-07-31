@@ -9,7 +9,7 @@ export default function Main() {
   const { handleClick, winner, isCompleted } = useEvaluate();
 
   return (
-    <div className="wrapper">
+    <div className="p-5 h-screen flex flex-col justify-center items-center gap-10">
       {isCompleted && <Modal winner={winner} />}
       <GameHeader />
       <GameBoard handleClick={handleClick} />

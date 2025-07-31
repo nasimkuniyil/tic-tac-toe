@@ -26,13 +26,3 @@
   }
 
 }
-
-@layer components{
-  .wrapper{
-    @apply p-5 h-lvh flex flex-col justify-center items-center gap-10;
-  }
-
-  .play-ground{
-    @apply grid grid-cols-3 gap-5 w-fit
-  }
-}
