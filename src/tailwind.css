@@ -14,11 +14,11 @@
 
 @layer base{
   h1{
-    @apply text-5xl font-extrabold text-center
+    @apply text-3xl md:text-4xl font-extrabold text-center
   }
 
   h2{
-    @apply text-3xl font-bold text-center
+    @apply text-2xl lg:text-3xl font-bold text-center
   }
 
   p{
