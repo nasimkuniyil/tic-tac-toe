@@ -7,7 +7,7 @@ export default function Modal({ winner }) {
     });
   return (
     <div className="absolute inset-0 flex justify-center items-center bg-black/70 backdrop-blur-xs z-50">
-      <div className="w-full flex flex-col gap-5 items-center max-w-md text-white py-10 rounded animate-popup">
+      <div className="w-full flex flex-col gap-5 items-center max-w-md text-white py-10 rounded animate-popup-500">
         <div className="pb-5">
           {winner ? (
             <div>
