@@ -3,7 +3,8 @@ import Main from "./pages/Main";
 function App() {
   return (
     <>
-      <Main/>
+      {/* <Main/> */}
+      <h5>hello world</h5>
     </>
   );
 }
